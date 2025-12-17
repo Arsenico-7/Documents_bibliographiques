@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Annexe Bibliographique - Documents de Référence</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', 'Times New Roman', serif;
+            background: #f8f9fa;
+            color: #2c3e50;
+            line-height: 1.6;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            padding: 60px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+        }
+
+        header {
+            border-bottom: 2px solid #2c3e50;
+            padding-bottom: 30px;
+            margin-bottom: 40px;
+        }
+
+        h1 {
+            font-size: 2.2em;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 20px;
+            letter-spacing: -0.5px;
+        }
+
+        .page-description {
+            font-size: 1.05em;
+            color: #4a4a4a;
+            max-width: 800px;
+            text-align: justify;
+            margin-bottom: 15px;
+        }
+
+        .document-section {
+            margin-bottom: 50px;
+        }
+
+        .section-title {
+            font-size: 1.4em;
+            font-weight: 600;
+            color: #2c3e50;
+            margin-bottom: 25px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .document-item {
+            margin-bottom: 30px;
+            padding: 25px;
+            background: #fafafa;
+            border-left: 3px solid #2c3e50;
+            transition: background 0.2s ease;
+        }
+
+        .document-item:hover {
+            background: #f0f0f0;
+        }
+
+        .doc-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 12px;
+        }
+
+        .doc-title {
+            font-size: 1.15em;
+            font-weight: 600;
+            color: #1a1a1a;
+            flex: 1;
+        }
+
+        .doc-reference {
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+            color: #666;
+            background: #e8e8e8;
+            padding: 3px 10px;
+            border-radius: 3px;
+            margin-left: 15px;
+        }
+
+        .doc-description {
+            font-size: 0.95em;
+            color: #555;
+            text-align: justify;
+            margin-bottom: 15px;
+            line-height: 1.7;
+        }
+
+        .doc-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 15px;
+        }
+
+        .doc-meta {
+            font-size: 0.85em;
+            color: #888;
+        }
+
+        .download-link {
+            font-size: 0.9em;
+            color: white;
+            background: #2c3e50;
+            text-decoration: none;
+            padding: 8px 20px;
+            border: 1px solid #2c3e50;
+            transition: all 0.2s ease;
+            font-weight: 500;
+        }
+
+        .download-link:hover {
+            background: #1a2738;
+            border-color: #1a2738;
+        }
+
+        footer {
+            margin-top: 60px;
+            padding-top: 30px;
+            border-top: 1px solid #e0e0e0;
+            text-align: center;
+            font-size: 0.9em;
+            color: #888;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 30px 20px;
+            }
+
+            h1 {
+                font-size: 1.8em;
+            }
+
+            .doc-header {
+                flex-direction: column;
+            }
+
+            .doc-reference {
+                margin-left: 0;
+                margin-top: 8px;
+            }
+
+            .doc-footer {
+                flex-direction: column;
+                gap: 10px;
+                align-items: flex-start;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Annexe Bibliographique Groupe 5: Certification d'aérodromes</h1>
+            <p class="page-description">
+                Cette page regroupe l'ensemble des documents normatifs et réglementaires cités dans le rapport. 
+                Les documents sont organisés par organisme émetteur et incluent les annexes et documents techniques 
+                de l'Organisation de l'Aviation Civile Internationale (OACI) ainsi que les publications de l'Agence 
+                Nationale de l'Aviation Civile du Niger (ANAC Niger) qui a été posée comme cas particulier. Chaque document est disponible au format PDF 
+                pour consultation et vérification des informations référencées dans l'étude.
+            </p>
+        </header>
+
+        <main>
+            <!-- Section OACI - Annexes -->
+            <div class="document-section">
+                <h2 class="section-title">Documents OACI</h2>
+		
+		         <div class="document-item">
+                    <div class="doc-header">
+                        <div class="doc-title">Convention de Chicago relative à l'Aviation Civile Internationale</div>
+                        <span class="doc-reference">Convention Chicago</span>
+                    </div>
+                    <p class="doc-description">
+                         Ce document constitue la base juridique de l'aviation civile internationale.
+                    </p>
+                    <div class="doc-footer">
+                        <span class="doc-meta">PDF • OACI • 1944</span>
+                        <a href="https://drive.google.com/uc?export=download&id=1-lwp_HdIyeNpc0TTH7GlW6-aqw3ZkNQX" class="download-link" target="_blank">Télécharger</a>
+                    </div>
+                </div>
+
+                <div class="document-item">
+                    <div class="doc-header">
+                        <div class="doc-title">Réunion OACI</div>
+                        <span class="doc-reference">14/07/2025</span>
+                    </div>
+                    <p class="doc-description">
+                        Réunion OACI présidée par le Secrétariat de l'OACI sur la certification des aérodromes.                  
+                    </p>
+                    <div class="doc-footer">
+                        <span class="doc-meta">PDF • OACI • 2025</span>
+                        <a href="https://drive.google.com/uc?export=download&id=1l6e1mWEP1wmzA_hF_CXt5kI24u52LsZy" class="download-link" target="_blank">Télécharger</a>
+                    </div>
+                </div>
+                
+                <div class="document-item">
+                    <div class="doc-header">
+                        <div class="doc-title">Annexe 14 — Aérodromes, Volume I : Conception et exploitation technique des aérodromes</div>
+                        <span class="doc-reference">Annexe 14, Vol. I</span>
+                    </div>
+                    <p class="doc-description">
+                        Cette annexe établit les normes et pratiques recommandées pour la conception, l'exploitation et 
+                        l'entretien des aérodromes.
+                    </p>
+                    <div class="doc-footer">
+                        <span class="doc-meta">PDF • OACI • 2022</span>
+                        <a href="https://drive.google.com/uc?export=download&id=1yUw-Y3B-k58cWEai4j8TuH975gXqWB-7" class="download-link" target="_blank">Télécharger</a>
+                    </div>
+                </div>
+
+                <div class="document-item">
+                    <div class="doc-header">
+                        <div class="doc-title">Annexe 19 — Gestion de la sécurité</div>
+                        <span class="doc-reference">Annexe 19</span>
+                    </div>
+                    <p class="doc-description">
+                        Annexe consacrée à la gestion de la sécurité dans l'aviation civile internationale.
+                    </p>
+                    <div class="doc-footer">
+                        <span class="doc-meta">PDF • OACI • Édition 2 (2016)</span>
+                        <a href="https://drive.google.com/uc?export=download&id=1YqVejsGPtt-kK0F5O5BBtPkHXI1mnUIZ" class="download-link" target="_blank">Télécharger</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Section OACI - Documents techniques -->
+            <div class="document-section">
+                <h2 class="section-title">Documents Techniques de l'OACI</h2>
+                
+                <div class="document-item">
+                    <div class="doc-header">
+                        <div class="doc-title">Doc 9774 — Manuel sur la certification des aérodromes</div>
+                        <span class="doc-reference">Doc 9774</span>
+                    </div>
+                    <p class="doc-description">
+                        Manuel détaillé fournissant des éléments indicatifs sur la mise en œuvre de l'Annexe 14, Volume I. 
+                        Il traite des procédures de certification des aérodromes, des inspections de sécurité, de l'élaboration 
+                        des manuels d'aérodrome et des systèmes de gestion de la sécurité aéroportuaire.
+                    </p>
+                    <div class="doc-footer">
+                        <span class="doc-meta">PDF • OACI • 2001</span>
+                        <a href="https://drive.google.com/uc?export=download&id=13B7OG1qeWkLuTPWWenytDNwZZv7GKW_Z" class="download-link" target="_blank">Télécharger</a>
+                    </div>
+                </div>
+
+                <div class="document-item">
+                    <div class="doc-header">
+                        <div class="doc-title">Doc 9734 — Manuel de planification des services de la circulation aérienne</div>
+                        <span class="doc-reference">Doc 9734</span>
+                    </div>
+                    <p class="doc-description">
+                        Guide complet pour la planification et l'organisation des services de la circulation aérienne (ATS). 
+                        Couvre la conception de l'espace aérien, les procédures de contrôle de la circulation aérienne, 
+                        la gestion du trafic aérien et la coordination entre les différents services.
+                    </p>
+                    <div class="doc-footer">
+                        <span class="doc-meta">PDF • OACI • 2017</span>
+                        <a href="https://drive.google.com/uc?export=download&id=1lGPzjAYY-27YSSzw8ZNWdKjzbwfSG4a7" class="download-link" target="_blank">Télécharger</a>
+                    </div>
+                </div>
+
+                <div class="document-item">
+                    <div class="doc-header">
+                        <div class="doc-title">Doc 9859 — Manuel de gestion de la sécurité (MGS)</div>
+                        <span class="doc-reference">Doc 9859</span>
+                    </div>
+                    <p class="doc-description">
+                        Manuel exhaustif sur la mise en œuvre des systèmes de gestion de la sécurité dans l'aviation. 
+                        Il fournit des orientations détaillées sur l'élaboration et la mise en œuvre de programmes de 
+                        sécurité de l'État (SSP) et de systèmes de gestion de la sécurité (SMS). 
+                    </p>
+                    <div class="doc-footer">
+                        <span class="doc-meta">PDF • OACI • (2018)</span>
+                        <a href="https://drive.google.com/uc?export=download&id=1iEGBZ8s9iIBBtvDlwtKE3Mnw1qDAGBuB" class="download-link" target="_blank">Télécharger</a>
+                    </div>
+                </div>
+
+                <div class="document-item">
+                    <div class="doc-header">
+                        <div class="doc-title">Doc 9981 — Procédures pour les services de navigation aérienne — Aérodromes</div>
+                        <span class="doc-reference">Doc 9981 (PANS-AD)</span>
+                    </div>
+                    <p class="doc-description">
+                        Document procédural complétant l'Annexe 14 en fournissant des procédures détaillées pour l'exploitation 
+                        des aérodromes.
+                    </p>
+                    <div class="doc-footer">
+                        <span class="doc-meta">PDF • OACI • 2020</span>
+                        <a href="https://drive.google.com/uc?export=download&id=1O8o_zhZaDVrq2dGOX7ZpZxwJ9rairkuQ" class="download-link" target="_blank">Télécharger</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Section ANAC Niger -->
+            <div class="document-section">
+                <h2 class="section-title">Documents de l'ANAC Niger</h2>
+                
+                <div class="document-item">
+                    <div class="doc-header">
+                        <div class="doc-title">Code d'Aviation Civile Niger</div>
+                        <span class="doc-reference">Code AC Niger</span>
+                    </div>
+                    <p class="doc-description">
+                        Corpus réglementaire national régissant l'ensemble des activités de l'aviation civile au Niger. 
+                        Ce document transpose les normes internationales de l'OACI dans le cadre juridique national.
+                    </p>
+                    <div class="doc-footer">
+                        <span class="doc-meta">PDF • ANAC Niger • 2010</span>
+                        <a href="https://drive.google.com/uc?export=download&id=178yJ6NxvhpmpeJAYqZo1FUM6VQDh2zOK" class="download-link" target="_blank">Télécharger</a>
+                    </div>
+                </div>
+
+                <div class="document-item">
+                    <div class="doc-header">
+                        <div class="doc-title">Processus interne de Certification des aérodromes au Niger</div>
+                        <span class="doc-reference">Processus Niger</span>
+                    </div>
+                    <p class="doc-description">
+                        Circulaire d'information détaillant les procédures nationales de certification des aérodromes.
+                    </p>
+                    <div class="doc-footer">
+                        <span class="doc-meta">PDF • ANAC Niger • 2010</span>
+                        <a href="https://drive.google.com/uc?export=download&id=1_T9ziX-qCms2Kp9iUtRHmBtziD7OGjQu" class="download-link" target="_blank">Télécharger</a>
+                    </div>
+                </div>
+
+                <div class="document-item">
+                    <div class="doc-header">
+                        <div class="doc-title">Arrêté portant sur la certification des aérodromes au Niger</div>
+                        <span class="doc-reference">Arrêté n° 67/MT/AC/DAC</span>
+                    </div>
+                    <p class="doc-description">
+                        Document stratégique définissant le cadre national de gestion de la sécurité aérienne au Niger.
+                    </p>
+                    <div class="doc-footer">
+                        <span class="doc-meta">PDF • ANAC Niger • 2007</span>
+                        <a href="https://drive.google.com/uc?export=download&id=1i6mwdLT-IVpRuffhrEnLu-TuS345dxG5" class="download-link" target="_blank">Télécharger</a>
+                    </div>
+                </div>
+
+                <div class="document-item">
+                    <div class="doc-header">
+                        <div class="doc-title">Organigramme de l'ANAC Niger</div>
+                        <span class="doc-reference">Organigramme-2020</span>
+                    </div>
+                    <p class="doc-description">
+                        Organigramme de l'ANAC Niger. Décrit la structure organisationnelle de l'Agence Nationale de l'Aviation Civile du Niger, 
+                        les chaînes hiérarchiques et les relations fonctionnelles au sein de l'organisme.
+                    </p>
+                    <div class="doc-footer">
+                        <span class="doc-meta">PDF • ANAC Niger • 2020</span>
+                        <a href="https://drive.google.com/uc?export=download&id=112-U3T-gEIEtsoVIG347hdC0dsS9f0F7" class="download-link" target="_blank">Télécharger</a>
+                    </div>
+                </div>
+
+            </div>
+        </main>
+
+        <footer>
+            <p>Documents de référence • Dernière mise à jour : Décembre 2025</p>
+            <p style="margin-top: 10px;">Pour toute question concernant ces documents, veuillez contacter l'auteur du rapport.</p>
+        </footer>
+    </div>
+</body>
+</html>
